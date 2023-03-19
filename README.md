@@ -35,8 +35,8 @@ so that they can take action on them
 
 ## Prerequisites
 
--   [git](https://git-scm.com/) (v2.30.1) or higher
--   [Node.js](https://nodejs.org/en/) (v14.15.4) or higher
+-   [git](https://git-scm.com/)
+-   [Node.js](https://nodejs.org/en/) (v14.15.4) >= 12.16 or higher
 -   [yarn](https://yarnpkg.com/) (v1.22.10) or higher
 
 ## Project setup
