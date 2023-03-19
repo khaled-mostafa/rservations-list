@@ -8,6 +8,7 @@ import {
   BoxProps,
 } from '@mui/material'
 import { styled } from '@mui/system'
+import ReservationList from '~/modules/reservations/list'
 import { theme } from '~/theme'
 
 export const ContainerBox = styled(MuiBox)<BoxProps>(() => ({
@@ -35,7 +36,7 @@ const App: FC = () => (
           px={{ xs: 1.5, sm: 1.5, md: 3 }}
           py={{ xs: 1.5, sm: 1.5, md: 3 }}
         >
-          List Here
+          <ReservationList />
         </ContainerBox>
       </ContentBox>
     </ThemeProvider>
