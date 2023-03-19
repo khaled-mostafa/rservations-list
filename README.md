@@ -53,7 +53,7 @@ so that they can take action on them
     ```sh
     yarn start
     ```
-    this command will run also the json-server [mock_data] on port 6006
+    this command will run also the json-server [mock_data] on port 6006 **and it is delayed by 1 second to simulate the real API**
 4.  Open [http://localhost:3007](http://localhost:3007) to view it in the browser.
 
 6. To check the json-server [mock_data] open [http://localhost:6006/reservations](http://localhost:6006/reservations)
